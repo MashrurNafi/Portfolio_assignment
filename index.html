@@ -1,26 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Portfolio Of Mashrur Ibne Mamun</title>
-</head>
-<body>
-  <section class="home">
-    <!-- Profile Picture -->
-    <div>
-      <img src="./images/logo_2.png" alt="">
-    </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfolio Of Mashrur Ibne Mamun</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <a href="#name-text">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects-header">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- Home Section -->
+    <section class="home">
+      <!-- Profile Picture -->
+      <div>
+        <img src="./images/logo_2.png" alt="" />
+      </div>
 
-    <!-- Home -->
-    <div class="home-text">
-      <p id="name-text">Hi, <br>I'm Mashrur Ibne Mamun</p>
-      <p>Currently Pursuing B.Sc. in CSE in International Islamic University Chattogram.
-        My goal is to become a successful Full Stack Developer and contribute to innovative projects that make a difference. I'm also eager to collaborate with like-minded professionals and continuously enhance my skills in the ever-evolving field of web development.
-      </p>
-    </div>
+      <!-- Home -->
+      <div class="home-text">
+        <h1 id="name-text">Hi, <br />I'm Mashrur Ibne Mamun</h1>
+        <p>
+          Currently Pursuing B.Sc. in CSE in International Islamic University
+          Chattogram. My goal is to become a successful Full Stack Developer and
+          contribute to innovative projects that make a difference. I'm also
+          eager to collaborate with like-minded professionals and continuously
+          enhance my skills in the ever-evolving field of web development.
+        </p>
+      </div>
+    </section>
 
-  </section>
-</body>
+    <!-- About -->
+    <section class="about" id="about">
+      <h1>About Me</h1>
+      <div>
+        <h2>Education</h2>
+      </div>
+      <div class="education">
+        <p>B.Sc. in CSE, IIUC</p>
+        <p>From 2023 - Present</p>
+        <p>H.S.C, Bangladesh Navy College , Chattogram</p>
+        <p>From 2019 - 2021</p>
+        <p>S.S.C, Mostafa Hakim High School</p>
+        <p>From 2017 - 2019</p>
+      </div>
+
+      <div>
+        <h2>Interests</h2>
+        <p>
+          I have a strong interest in Machine Learning and Artificial
+          Intelligence. When I'm not working, I enjoy long sessions of gaming.
+        </p>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="projects">
+      <h1 id="projects-header">Projects and Work</h1>
+      <div class="projects-list">
+        <p>1. To-Let App</p>
+        <p>
+          Description: A simple App where House Owners and Tenants can connect.
+        </p>
+        <p>Technology Used: C Language</p>
+        <p>2. Diagnostic Centre Billing System</p>
+        <p>
+          Description: An interactive Billing App With Admin Control Which
+          Calculates Billing of Tests of a Diagnostic Center and saves each
+          billing in a database.
+        </p>
+        <p>Technology Used: C++ Language,QT Creator and mySql</p>
+        <p>3. PC Builder Website - Innovia</p>
+        <p>
+          Description: A responsive website where users can build their own PC
+          by choosing different components according to their budget.
+        </p>
+        <p>
+          Technology Used: HTML, CSS, JavaScript, React, Bootstrap, Tailwind
+        </p>
+        <img class="innovia" src="./images/Innovia.png" alt="" />
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="skills">
+      <h1 id="skills">Skills</h1>
+      <p>C</p>
+      <p>C++</p>
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>JavaScript</p>
+      <p>Bootstrap</p>
+      <p>Tailwind CSS</p>
+      <p>Git</p>
+      <p>GitHub</p>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h1>Contact Me:</h1>
+      <form action="" method="POST">
+        <label for="name">Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Your Name"
+          required
+        /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="youremail@example.com"
+          required
+        /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea
+          id="message"
+          name="message"
+          rows="4"
+          placeholder="Your message here..."
+          required
+        ></textarea
+        ><br /><br />
+
+        <input type="submit" value="Send Message" />
+      </form>
+    </section>
+  </body>
+
+  <footer>
+    <a
+      href="https://www.facebook.com/mashrur.nafi?rdid=dOU1MRc0GzEHoXMp&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CWt2S8gb3%2F#"
+      ><i class="fa-brands fa-facebook"></i
+    ></a>
+
+    <a href="https://www.instagram.com/mashrurnafi?igsh=aWhveHUzbzR5OXJ4"
+      ><i class="fa-brands fa-instagram"></i
+    ></a>
+
+    <a
+      href="https://www.linkedin.com/in/mashrur-nafi-a28029354?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      ><i class="fa-brands fa-linkedin"></i
+    ></a>
+
+    <a href="https://x.com/MashrurNafi"
+      ><i class="fa-brands fa-x-twitter"></i
+    ></a>
+    <p>© 2024 Mashrur Ibne Mamun. All rights reserved.</p>
+  </footer>
 </html>
