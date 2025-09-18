@@ -1,0 +1,31 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+.home{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-inline: 400px;
+}
+
+.home img{
+  width: 300px;
+  height: 300px;
+  margin-top: 200px;
+  border-radius: 50%;
+}
+
+.home-text{
+  margin-top: 110px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: white;
+}
+
+#name-text{
+  font-size: 50px;
+  font-weight: bold;
+}
